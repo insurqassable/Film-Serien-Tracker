@@ -2,6 +2,6 @@
 Projekt Film- &amp; Serien-Tracker des Teams 2 für das Modul WI-PRO1 der WI-25 der DHSN Glauchau
 
 Mitglieder:
-  Simon Heckel
-  Fabian Katzung
-  Matteo Kluge
+- Simon Heckel
+- Fabian Katzung
+- Matteo Kluge
