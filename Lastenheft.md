@@ -39,29 +39,29 @@ Die Anwendung wird als verteiltes System realisiert: Ein zentraler Server verwal
 |---|---|---|
 | FA-01 | Die Anwendung muss eine Registrierung mit Benutzername und Passwort ermöglichen. | Muss |
 | FA-02 | Die Anwendung muss eine Anmeldefunktion (Login) bereitstellen. | Muss |
-| FA-03 | Die Anwendung soll eine Passwort-vergessen-Funktion über Sicherheitsfragen anbieten (z. B. *Wie hieß dein erstes Haustier?*). | Soll |
-| FA-04 | Jeder Nutzer muss über einen individuellen Datenbereich verfügen; alle Listen und Aktivitäten sind strikt von anderen Nutzern getrennt. | Muss |
+| FA-03 | Die Anwendung soll eine Passwort-vergessen-Funktion über Sicherheitsfragen anbieten. <br>(z. B. *Wie hieß dein erstes Haustier?*) | Soll |
+| FA-04 | Jeder Nutzer muss über einen individuellen Datenbereich verfügen; <br>Alle Listen und Aktivitäten sind strikt von anderen Nutzern getrennt. | Muss |
 | FA-05 | Nutzerdaten – insbesondere Passwörter – müssen sicher gespeichert werden (Hashing/Verschlüsselung). | Muss |
 
 ### 3.2 Filmkatalog
 
 | ID | Anforderung | Priorität |
 |---|---|---|
-| FA-06 | Das System muss eine zentrale Filmdatenbank bereitstellen mit den Feldern: Titel, Erscheinungsjahr, Kurzbeschreibung, Altersbegrenzung, Laufzeit, Studio/Publisher, Genre(s), Hauptdarsteller, Regisseur. | Muss |
+| FA-06 | Das System muss eine zentrale Filmdatenbank bereitstellen mit den Feldern: <br>Titel, Erscheinungsjahr, Kurzbeschreibung, Altersbegrenzung, Laufzeit, Studio/Publisher, Genre(s), <br>Hauptdarsteller, Regisseur. | Muss |
 | FA-07 | Der Filmkatalog soll initial über eine externe Film-API (z. B. TMDb) oder eine KI-gestützte Methode befüllt werden. | Soll |
 
 ### 3.3 Serienkatalog
 
 | ID | Anforderung | Priorität |
 |---|---|---|
-| FA-08 | Das System muss eine zentrale Seriendatenbank bereitstellen mit den Feldern: Titel, Erscheinungsjahr, Kurzbeschreibung, Altersbegrenzung, Anzahl Staffeln und Folgen, Studio/Publisher, Genre(s), Hauptdarsteller, Regisseur. | Muss |
+| FA-08 | Das System muss eine zentrale Seriendatenbank bereitstellen mit den Feldern: <br>Titel, Erscheinungsjahr, Kurzbeschreibung, Altersbegrenzung, Anzahl Staffeln und Folgen, Studio/Publisher, <br>Genre(s), Hauptdarsteller, Regisseur. | Muss |
 | FA-09 | Der Serienkatalog soll initial über eine externe Serien-API oder eine KI-gestützte Methode befüllt werden. | Soll |
 
 ### 3.4 Lokale Nutzerlisten
 
 | ID | Anforderung | Priorität |
 |---|---|---|
-| FA-10 | Kann ein Nutzer einen Film oder eine Serie nicht im zentralen Katalog finden, soll er diesen Eintrag in einer eigenen, nutzerspezifischen lokalen Liste speichern können. | Soll |
+| FA-10 | Kann ein Nutzer einen Film oder eine Serie nicht im zentralen Katalog finden, soll er diesen Eintrag in einer <br>eigenen, nutzerspezifischen lokalen Liste speichern können. | Soll |
 
 ### 3.5 Listen-Features
 
