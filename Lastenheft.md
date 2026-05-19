@@ -6,8 +6,8 @@
 | **Modul** | Projekt: Software Engineering – 2. Semester |
 | **Seminargruppe** | WI25 |
 | **Erstellt von** | Matteo Kluge, Fabian Katzung, Simon Heckel |
-| **Datum** | 05.05.2026 |
-| **Version** | 1.3 |
+| **Datum** | 19.05.2026 |
+| **Version** | 1.4 |
 
 ---
 
