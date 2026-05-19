@@ -39,7 +39,7 @@ Die Anwendung wird als verteiltes System realisiert: Ein zentraler Server verwal
 |---|---|---|
 | FA-01 | Die Anwendung muss eine Registrierung mit Benutzername und Passwort ermöglichen. | Muss |
 | FA-02 | Die Anwendung muss eine Anmeldefunktion (Login) bereitstellen. | Muss |
-| FA-03 | Die Anwendung soll eine Passwort-vergessen-Funktion über Sicherheitsfragen anbieten. <br>(z. B. *Wie hieß dein erstes Haustier?*) | Soll |
+| FA-03 | Die Anwendung soll eine Passwort-vergessen-Funktion über Sicherheitsfragen anbieten. <br>(z. B. *Wie hieß dein erstes Haustier?*) | Kann |
 | FA-04 | Jeder Nutzer muss über einen individuellen Datenbereich verfügen; <br>Alle Listen und Aktivitäten sind strikt von anderen Nutzern getrennt. | Muss |
 | FA-05 | Nutzerdaten – insbesondere Passwörter – müssen sicher gespeichert werden (Hashing/Verschlüsselung). | Muss |
 
@@ -47,21 +47,21 @@ Die Anwendung wird als verteiltes System realisiert: Ein zentraler Server verwal
 
 | ID | Anforderung | Priorität |
 |---|---|---|
-| FA-06 | Das System muss eine zentrale Filmdatenbank bereitstellen mit den Feldern: <br>Titel, Erscheinungsjahr, Kurzbeschreibung, Altersbegrenzung, Laufzeit, Studio/Publisher, Genre(s), <br>Hauptdarsteller, Regisseur. | Muss |
-| FA-07 | Der Filmkatalog soll initial über eine externe Film-API (z. B. TMDb) oder eine KI-gestützte Methode befüllt werden. | Soll |
+| FA-06 | Das System muss eine zentrale Schnittstelle auf eine Filmdatenbank bereitstellen mit den Feldern: <br>Titel, Erscheinungsjahr, Kurzbeschreibung, Altersbegrenzung, Laufzeit, Studio/Publisher, Genre(s), <br>Hauptdarsteller, Regisseur, Streaming-Dienste | Muss |
+| FA-07 | Der Filmkatalog soll den einfachen Zugriff auf TMDb (Film- und Seriendatenbank) bereitstellen. | Soll |
 
 ### 3.3 Serienkatalog
 
 | ID | Anforderung | Priorität |
 |---|---|---|
-| FA-08 | Das System muss eine zentrale Seriendatenbank bereitstellen mit den Feldern: <br>Titel, Erscheinungsjahr, Kurzbeschreibung, Altersbegrenzung, Anzahl Staffeln und Folgen, Studio/Publisher, <br>Genre(s), Hauptdarsteller, Regisseur. | Muss |
-| FA-09 | Der Serienkatalog soll initial über eine externe Serien-API oder eine KI-gestützte Methode befüllt werden. | Soll |
+| FA-08 | Das System muss eine zentrale Schnittstelle auf eine Seriendatenbank bereitstellen mit den Feldern: <br>Titel, Erscheinungsjahr, Kurzbeschreibung, Altersbegrenzung, Anzahl Staffeln und Folgen, Studio/Publisher, <br>Genre(s), Hauptdarsteller, Regisseur, Streaming-Dienste | Muss |
+| FA-09 | Der Serienkatalog soll den einfachen Zugriff auf TMDb (Film- und Seriendatenbank) bereitstellen. | Soll |
 
 ### 3.4 Lokale Nutzerlisten
 
 | ID | Anforderung | Priorität |
 |---|---|---|
-| FA-10 | Kann ein Nutzer einen Film oder eine Serie nicht im zentralen Katalog finden, soll er diesen Eintrag in einer <br>eigenen, nutzerspezifischen lokalen Liste speichern können. | Soll |
+| FA-10 | Kann ein Nutzer einen Film oder eine Serie nicht im zentralen Katalog finden, soll er diesen Eintrag in einer <br>eigenen, nutzerspezifischen lokalen Liste speichern können. | Kann |
 
 ### 3.5 Listen-Features
 
@@ -69,8 +69,8 @@ Die Anwendung wird als verteiltes System realisiert: Ein zentraler Server verwal
 |---|---|---|
 | FA-11 | Jeder Nutzer soll eine **Watchlist** führen können (Inhalte, die er noch sehen möchte). | Soll |
 | FA-12 | Jeder Nutzer muss eine **Schon-gesehen-Liste** führen können. | Muss |
-| FA-13 | Jeder Nutzer soll eine **Schaue-ich-aktuell-Liste** führen können. | Soll |
-| FA-14 | Einträge sollen zwischen den Listen verschoben werden können (z. B. von der Watchlist in die Schon-gesehen-Liste). | Soll |
+| FA-13 | Jeder Nutzer soll eine **Schaue-ich-aktuell-Liste** führen können. | Kann |
+| FA-14 | Einträge sollen zwischen den Listen verschoben werden können (z. B. von der Watchlist in die Schon-gesehen-Liste). | Kann |
 
 ### 3.6 Suche und Filter
 
@@ -78,6 +78,7 @@ Die Anwendung wird als verteiltes System realisiert: Ein zentraler Server verwal
 |---|---|---|
 | FA-15 | Die Anwendung muss eine Suchfunktion für Filme und Serien nach Titel bereitstellen. | Muss |
 | FA-16 | Die Anwendung kann eine Filterfunktion bereitstellen, z. B. nach Genre, Erscheinungsjahr oder Laufzeit. | Kann |
+| FA-17 | Die Suchfunktion kann aus der bestehenden Eingabe eine Vervollständigung vorschlagen. | Kann |
 
 ---
 
