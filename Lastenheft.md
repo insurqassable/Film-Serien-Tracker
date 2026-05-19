@@ -7,7 +7,7 @@
 | **Seminargruppe** | WI25 |
 | **Erstellt von** | Matteo Kluge, Fabian Katzung, Simon Heckel |
 | **Datum** | 05.05.2026 |
-| **Version** | 1.0 |
+| **Version** | 1.3 |
 
 ---
 
