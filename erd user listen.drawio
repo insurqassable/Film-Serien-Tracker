@@ -140,7 +140,7 @@
         <mxCell id="dHnNjimLWBCZIzD_H5oZ-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="n" vertex="1">
           <mxGeometry height="30" width="60" x="900" y="540" as="geometry" />
         </mxCell>
-        <mxCell id="dHnNjimLWBCZIzD_H5oZ-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="name" vertex="1">
+        <mxCell id="dHnNjimLWBCZIzD_H5oZ-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="fs_name" vertex="1">
           <mxGeometry height="40" width="120" x="1040" y="210" as="geometry" />
         </mxCell>
         <mxCell id="dHnNjimLWBCZIzD_H5oZ-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;u&gt;filmserien_id&lt;/u&gt;" vertex="1">
@@ -152,7 +152,7 @@
         <mxCell id="dHnNjimLWBCZIzD_H5oZ-29" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="&lt;u&gt;genre_id&lt;/u&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="700" y="490" as="geometry" />
         </mxCell>
-        <mxCell id="dHnNjimLWBCZIzD_H5oZ-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="name" vertex="1">
+        <mxCell id="dHnNjimLWBCZIzD_H5oZ-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="g_name" vertex="1">
           <mxGeometry height="40" width="120" x="700" y="710" as="geometry" />
         </mxCell>
         <mxCell id="WqXGMMEXu6_GBXedWsFN-2" edge="1" parent="1" source="WqXGMMEXu6_GBXedWsFN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" target="7UqY1O3qUpE7MWwglon--1">
