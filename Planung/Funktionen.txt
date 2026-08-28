@@ -1,0 +1,16 @@
+Nutzerverwaltung
+  Registrierung  -  register()
+    Funktion zur Registrierung eines neuen Nutzers
+    In: username, password, password_check, (security_question, security_answer)
+    Überprüfung auf doppelten username
+    Doppelte Passworteingabe zur Prüdung auf Korrektheit
+    Verschlüsselung password mit bcrypt
+    Gegebenenfalls Sicherheitsfrage mit Antwort
+
+  Einloggen - login()
+    Funktion zur Anmeldung eines Nutzers
+    In: username, password
+    Überprüfung auf korrektes Passwort
+    Anmeldung an Server
+
+  
