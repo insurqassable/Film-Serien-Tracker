@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+python-dotenv
+psycopg
+psycopg[binary,pool]
+bcrypt
+itsdangerous
+httpx
+pytest
